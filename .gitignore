@@ -1,0 +1,10 @@
+out/
+build/
+bin/
+.settings/
+.gradle/
+.idea/
+
+.project
+.classpath
+uiTests.iml
