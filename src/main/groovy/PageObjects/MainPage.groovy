@@ -4,7 +4,7 @@ import static com.codeborne.selenide.Selenide.*
 class MainPage {
 
     private static final LOGO = $(By.xpath("//*[@id='hplogo']"))
-    private static final SEARCH_FIELD = $(By.xpath("//*[@id='lst-ib']"))
+    private static final SEARCH_FIELD = $(By.xpath("//*[@name='q']"))
 
     final static void open() {
         open("https://www.google.com/")
